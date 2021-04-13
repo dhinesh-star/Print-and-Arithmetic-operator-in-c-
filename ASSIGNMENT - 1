@@ -1,0 +1,25 @@
+Printing size of data types using c++
+
+#include<iostream>
+using namespace std;
+main()
+{
+	cout<<"Size of char : "<<sizeof(char)<<" bytes""\n";
+	cout<<"Size of int : "<<sizeof(int)<<" bytes""\n";
+	cout<<"Size of float : "<<sizeof(float)<<" bytes""\n";
+	cout<<"Size of double : "<<sizeof(double)<<" bytes";
+}
+
+Arithmetic Operator
+
+#include <iostream>
+using namespace std;
+main()
+{
+	float a,b,c;
+	cout<<"Enter two numbers: ";
+	cin>>a;
+	cin>>b;
+	c=a*b;
+	cout<<"Product = "<<c;
+}
